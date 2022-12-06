@@ -14,14 +14,12 @@ def compute(s: str) -> int:
     elfs = [0]
     idx = 0
     for line in s.split('\n'):
-        print(line)
         if line.strip() == '':
             elfs.append(0)
             idx += 1
             continue
         n = int(line.strip())
         elfs[idx] += n
-        print(elfs)
 
     return max(elfs)
 

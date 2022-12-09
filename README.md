@@ -57,4 +57,11 @@ VRQWPDSGP
 > 1204 μs
 + python ./day07/part2.py ./day07/input.txt
 960831
+> 1222 μs
++ python ./day08/part1.py ./day08/input.txt
+1870
+> 7242 μs
++ python ./day08/part2.py ./day08/input.txt
+517440
+> 23630 μs
 ```
